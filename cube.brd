@@ -932,6 +932,26 @@ Source: https://www.micronas.com .. mas35x9f_3ds.pdf</description>
 <rectangle x1="0.381" y1="-1.905" x2="1.905" y2="-0.381" layer="31"/>
 <rectangle x1="-1.905" y1="-1.905" x2="-0.381" y2="-0.381" layer="31"/>
 </package>
+<package name="SOD-323">
+<description>&lt;b&gt;SOD323&lt;/b&gt; (2.5x1.2mm)</description>
+<smd name="C" x="-1.27" y="0" dx="1.35" dy="0.8" layer="1"/>
+<smd name="A" x="1.27" y="0" dx="1.35" dy="0.8" layer="1"/>
+<text x="-1.1" y="1" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="-1.1" y="-1.792" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
+<wire x1="-1" y1="0.7" x2="1" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="1" y1="0.7" x2="1" y2="-0.7" width="0.2032" layer="51"/>
+<wire x1="1" y1="-0.7" x2="-1" y2="-0.7" width="0.2032" layer="21"/>
+<wire x1="-1" y1="-0.7" x2="-1" y2="0.7" width="0.2032" layer="51"/>
+<wire x1="-0.25" y1="0" x2="0.35" y2="0.4" width="0.2032" layer="21"/>
+<wire x1="0.35" y1="0.4" x2="0.35" y2="-0.4" width="0.2032" layer="21"/>
+<wire x1="0.35" y1="-0.4" x2="-0.25" y2="0" width="0.2032" layer="21"/>
+<rectangle x1="-0.45" y1="-0.5" x2="-0.25" y2="0.5" layer="21"/>
+<polygon width="0.2032" layer="21">
+<vertex x="-0.1" y="0"/>
+<vertex x="0.2" y="0.2"/>
+<vertex x="0.2" y="-0.2"/>
+</polygon>
+</package>
 </packages>
 </library>
 <library name="adafruit">
@@ -25287,9 +25307,17 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="U$43" library="silks" package="FEATHERM4_BOT" value="" x="25.4" y="-43.18" smashed="yes" rot="MR0"/>
 <element name="U$44" library="silks" package="FEATHERM4_TOP" value="" x="-25.4" y="-43.18" smashed="yes"/>
-<element name="Q1" library="microbuilder" package="SOT23-R" value="DMG341" x="-32.385" y="-52.705" smashed="yes">
-<attribute name="NAME" x="-30.607" y="-52.832" size="0.8128" layer="25" ratio="18"/>
-<attribute name="VALUE" x="-30.607" y="-53.34" size="0.4064" layer="27" ratio="10"/>
+<element name="Q2" library="microbuilder" package="SOT23-R" value="" x="-32.385" y="-55.88" smashed="yes">
+<attribute name="NAME" x="-30.607" y="-56.007" size="0.8128" layer="25" ratio="18"/>
+<attribute name="VALUE" x="-30.607" y="-56.515" size="0.4064" layer="27" ratio="10"/>
+</element>
+<element name="R12" library="microbuilder" package="0603-NO" value="100K" x="-32.512" y="-58.547" smashed="yes">
+<attribute name="NAME" x="-30.734" y="-58.674" size="0.8128" layer="25" font="vector" ratio="18"/>
+<attribute name="VALUE" x="-30.734" y="-59.309" size="0.4064" layer="27" font="vector" ratio="10"/>
+</element>
+<element name="D12" library="microbuilder" package="SOD-323" value="" x="-32.004" y="-65.405" smashed="yes">
+<attribute name="NAME" x="-33.104" y="-64.405" size="0.8128" layer="25" ratio="18"/>
+<attribute name="VALUE" x="-33.104" y="-67.197" size="0.4064" layer="27" ratio="10"/>
 </element>
 </elements>
 <signals>
@@ -25600,15 +25628,17 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U$5" pad="3"/>
 <contactref element="U$6" pad="3"/>
 <contactref element="R4" pad="2"/>
-<wire x1="55.819" y1="20.689" x2="55.819" y2="24.753" width="0" layer="19" extent="1-1"/>
-<wire x1="55.819" y1="16.625" x2="55.819" y2="20.689" width="0" layer="19" extent="1-1"/>
-<wire x1="55.819" y1="12.561" x2="55.819" y2="16.625" width="0" layer="19" extent="1-1"/>
-<wire x1="55.819" y1="8.497" x2="55.819" y2="12.561" width="0" layer="19" extent="1-1"/>
-<wire x1="26.4795" y1="5.8395" x2="55.819" y2="8.497" width="0" layer="19" extent="1-1"/>
-<wire x1="23.0806" y1="4.506" x2="26.4795" y2="5.8395" width="0" layer="19" extent="1-1"/>
-<wire x1="6.035" y1="7.735" x2="23.0806" y2="4.506" width="0" layer="19" extent="1-1"/>
+<contactref element="R12" pad="2"/>
+<wire x1="-19.812" y1="2.452" x2="-31.662" y2="-58.547" width="0" layer="19" extent="1-1"/>
+<wire x1="6.035" y1="7.735" x2="-19.812" y2="2.452" width="0" layer="19" extent="1-1"/>
 <wire x1="5.08" y1="12.1412" x2="6.035" y2="7.735" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.812" y1="2.452" x2="6.035" y2="7.735" width="0" layer="19" extent="1-1"/>
+<wire x1="23.0806" y1="4.506" x2="6.035" y2="7.735" width="0" layer="19" extent="1-1"/>
+<wire x1="26.4795" y1="5.8395" x2="23.0806" y2="4.506" width="0" layer="19" extent="1-1"/>
+<wire x1="55.819" y1="8.497" x2="26.4795" y2="5.8395" width="0" layer="19" extent="1-1"/>
+<wire x1="55.819" y1="12.561" x2="55.819" y2="8.497" width="0" layer="19" extent="1-1"/>
+<wire x1="55.819" y1="16.625" x2="55.819" y2="12.561" width="0" layer="19" extent="1-1"/>
+<wire x1="55.819" y1="20.689" x2="55.819" y2="16.625" width="0" layer="19" extent="1-1"/>
+<wire x1="55.819" y1="24.753" x2="55.819" y2="20.689" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CKO1">
 <contactref element="U$1" pad="2"/>
@@ -26607,19 +26637,26 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="13.97" y="-36.83" extent="1-16" drill="1.1" diameter="1.778"/>
 </signal>
 <signal name="VHI1">
-<contactref element="Q1" pad="2"/>
 <contactref element="PWR_LED7" pad="A"/>
-<wire x1="-4.0005" y1="2.528" x2="-31.435" y2="-53.705" width="0" layer="19" extent="1-1"/>
+<contactref element="Q2" pad="3"/>
+<wire x1="-4.0005" y1="2.528" x2="-32.385" y2="-54.88" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED7_PWR">
 <contactref element="U$7" pad="20"/>
-<contactref element="Q1" pad="1"/>
-<wire x1="1.27" y1="12.1412" x2="-33.335" y2="-53.705" width="0" layer="19" extent="1-1"/>
+<contactref element="D12" pad="C"/>
+<wire x1="1.27" y1="12.1412" x2="-33.274" y2="-65.405" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$36" class="1">
-<contactref element="Q1" pad="3"/>
 <contactref element="R4" pad="1"/>
-<wire x1="-19.812" y1="4.152" x2="-32.385" y2="-51.705" width="0" layer="19" extent="1-1"/>
+<contactref element="Q2" pad="2"/>
+<wire x1="-19.812" y1="4.152" x2="-31.435" y2="-56.88" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$6">
+<contactref element="Q2" pad="1"/>
+<contactref element="R12" pad="1"/>
+<contactref element="D12" pad="A"/>
+<wire x1="-33.362" y1="-58.547" x2="-30.734" y2="-65.405" width="0" layer="19" extent="1-1"/>
+<wire x1="-33.335" y1="-56.88" x2="-33.362" y2="-58.547" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

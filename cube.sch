@@ -3322,6 +3322,66 @@ Source: https://www.micronas.com .. mas35x9f_3ds.pdf</description>
 <rectangle x1="0.381" y1="-1.905" x2="1.905" y2="-0.381" layer="31"/>
 <rectangle x1="-1.905" y1="-1.905" x2="-0.381" y2="-0.381" layer="31"/>
 </package>
+<package name="SOT23-W">
+<description>&lt;b&gt;SOT23&lt;/b&gt; - Wave soldering</description>
+<wire x1="1.5724" y1="0.6604" x2="1.5724" y2="-0.6604" width="0.2032" layer="51"/>
+<wire x1="1.5724" y1="-0.6604" x2="-1.5724" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.5724" y1="-0.6604" x2="-1.5724" y2="0.6604" width="0.2032" layer="51"/>
+<wire x1="-1.5724" y1="0.6604" x2="1.5724" y2="0.6604" width="0.2032" layer="51"/>
+<wire x1="-1.6224" y1="-0.3984" x2="-1.6224" y2="0.6604" width="0.2032" layer="21"/>
+<wire x1="1.6224" y1="0.6604" x2="1.6224" y2="-0.3984" width="0.2032" layer="21"/>
+<wire x1="0.2454" y1="-0.6604" x2="-0.2594" y2="-0.6604" width="0.2032" layer="21"/>
+<smd name="3" x="0" y="1.3" dx="2.8" dy="1.4" layer="1"/>
+<smd name="2" x="1.1" y="-1.3" dx="1.2" dy="1.4" layer="1"/>
+<smd name="1" x="-1.1" y="-1.3" dx="1.2" dy="1.4" layer="1"/>
+<text x="2.032" y="-0.127" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="2.032" y="-0.635" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
+<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
+<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
+</package>
+<package name="POWERPAK-1212-8">
+<description>POWER-PAK 1212-8</description>
+<wire x1="-1.725" y1="-1.725" x2="-1.725" y2="1.725" width="0.2032" layer="21"/>
+<wire x1="1.725" y1="1.725" x2="1.725" y2="-1.725" width="0.2032" layer="21"/>
+<wire x1="1.725" y1="1.725" x2="-1.725" y2="1.725" width="0.2032" layer="51"/>
+<wire x1="1.725" y1="-1.725" x2="-1.725" y2="-1.725" width="0.2032" layer="51"/>
+<circle x="-1.155" y="-0.9613" radius="0.3175" width="0" layer="21"/>
+<smd name="3" x="0.325" y="-1.75" dx="0.4" dy="0.55" layer="1" rot="R180"/>
+<smd name="4" x="0.975" y="-1.75" dx="0.4" dy="0.55" layer="1" rot="R180"/>
+<smd name="2" x="-0.325" y="-1.75" dx="0.4" dy="0.55" layer="1" rot="R180"/>
+<smd name="1" x="-0.975" y="-1.75" dx="0.4" dy="0.55" layer="1" rot="R180"/>
+<smd name="5-8" x="0" y="1.005" dx="2.4" dy="2" layer="1"/>
+<text x="-2.34" y="-1.72" size="0.8128" layer="25" ratio="18" rot="R90">&gt;NAME</text>
+<text x="2.66" y="-1.77" size="0.4064" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+</package>
+<package name="DPAK">
+<description>&lt;b&gt;SMD D-PAK&lt;/b&gt;</description>
+<wire x1="3.3" y1="-3" x2="3.3" y2="3.2" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="3.2" x2="-3.3" y2="-3" width="0.2032" layer="21"/>
+<wire x1="3.3" y1="3.2" x2="-3.3" y2="3.2" width="0.2032" layer="51"/>
+<wire x1="3.3" y1="-3" x2="-3.3" y2="-3" width="0.2032" layer="21"/>
+<smd name="4" x="0" y="1.8528" dx="5.4516" dy="7" layer="1"/>
+<smd name="3" x="2.2098" y="-4.9276" dx="1.6002" dy="2.9972" layer="1"/>
+<smd name="1" x="-2.2606" y="-4.9276" dx="1.6002" dy="2.9972" layer="1"/>
+<text x="-2.413" y="-2.5273" size="0.6096" layer="51">1</text>
+<text x="-0.2032" y="-2.5273" size="0.6096" layer="51">2</text>
+<text x="1.9812" y="-2.5273" size="0.6096" layer="51">3</text>
+<text x="-0.3302" y="1.8415" size="0.6096" layer="51">4</text>
+<rectangle x1="-2.6416" y1="-5.7404" x2="-1.8796" y2="-3.0734" layer="51"/>
+<rectangle x1="1.8288" y1="-5.7404" x2="2.5908" y2="-3.0734" layer="51"/>
+<rectangle x1="-0.381" y1="-3.8354" x2="0.381" y2="-3.0734" layer="51"/>
+<polygon width="0.2032" layer="51">
+<vertex x="-2.5" y="3.2"/>
+<vertex x="-2.5" y="3.95"/>
+<vertex x="-1.65" y="4.5"/>
+<vertex x="1.65" y="4.5"/>
+<vertex x="2.5" y="3.95"/>
+<vertex x="2.5" y="3.2"/>
+</polygon>
+<text x="4.508" y="-3" size="0.8128" layer="25" ratio="18" rot="R90">&gt;NAME</text>
+<text x="5.219" y="-3" size="0.4064" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="APA102">
@@ -6786,6 +6846,57 @@ Source: https://www.micronas.com .. mas35x9f_3ds.pdf</description>
 <rectangle x1="324.6406" y1="35.8159" x2="325.0178" y2="35.8502" layer="94"/>
 <frame x1="0" y1="0" x2="387.35" y2="260.35" columns="8" rows="5" layer="94"/>
 </symbol>
+<symbol name="MOSFET-N">
+<wire x1="0.762" y1="0.762" x2="0.762" y2="0" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="3.175" x2="0.762" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="0.762" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="-1.905" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-2.54" x2="0.762" y2="-3.175" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0.762" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="4.572" y1="0.762" x2="4.318" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="4.318" y1="0.508" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="3.302" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="0.508" x2="3.048" y2="0.254" width="0.1524" layer="94"/>
+<circle x="2.54" y="-2.54" radius="0.3592" width="0" layer="94"/>
+<circle x="2.54" y="2.54" radius="0.3592" width="0" layer="94"/>
+<text x="5.08" y="0.635" size="1.27" layer="95">&gt;NAME</text>
+<text x="5.08" y="-1.27" size="1.27" layer="96">&gt;VALUE</text>
+<text x="3.175" y="3.175" size="0.8128" layer="93">D</text>
+<text x="3.175" y="-3.81" size="0.8128" layer="93">S</text>
+<text x="-1.27" y="-1.905" size="0.8128" layer="93">G</text>
+<pin name="G" x="-2.54" y="-2.54" visible="pad" length="short"/>
+<pin name="S" x="2.54" y="-5.08" visible="pad" length="short" rot="R90"/>
+<pin name="D" x="2.54" y="5.08" visible="pad" length="short" rot="R270"/>
+<polygon width="0.1524" layer="94">
+<vertex x="3.81" y="0.508"/>
+<vertex x="3.302" y="-0.254"/>
+<vertex x="4.318" y="-0.254"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="1.016" y="0"/>
+<vertex x="2.032" y="0.762"/>
+<vertex x="2.032" y="-0.762"/>
+</polygon>
+</symbol>
+<symbol name="DIODE">
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<text x="0" y="2.54" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-2.5" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="APA102" uservalue="yes">
@@ -9034,6 +9145,470 @@ Vishay IHLP
 </gates>
 <devices>
 <device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MOSFET-N" prefix="Q" uservalue="yes">
+<description>&lt;b&gt;N-Channel Mosfet&lt;/b&gt;
+&lt;p&gt;&lt;b&gt;LEGEND&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;VDS&lt;/b&gt;: Voltage Drain-Source&lt;br/&gt;
+&lt;b&gt;ID&lt;/b&gt;: Drain Current&lt;br/&gt;
+&lt;b&gt;RDS(ON)&lt;/b&gt;: Drain-Source On-State Resistance&lt;br/&gt;
+&lt;b&gt;VGS(TH)&lt;/b&gt;: Gate-Source Threshold Voltage&lt;br/&gt;
+&lt;b&gt;CISS&lt;/b&gt;: Drain-Source Input Capacitance
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;SOT-23&lt;/b&gt;
+&lt;table border="0" width="90%" cellspacing="0" cellpadding="5"&gt;
+&lt;tr bgcolor="#DDDDDD"&gt;
+&lt;td&gt;Name&lt;/td&gt;
+&lt;td&gt;VDS&lt;/td&gt;
+&lt;td&gt;ID&lt;/td&gt;
+&lt;td&gt;RDS(ON)&lt;/td&gt;
+&lt;td&gt;VGS(TH)&lt;/td&gt;
+&lt;td&gt;CISS&lt;/td&gt;
+&lt;td&gt;Order Number&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;2N7002E&lt;/td&gt;
+&lt;td&gt;60V&lt;/td&gt;
+&lt;td&gt;260mA&lt;/td&gt;
+&lt;td&gt;2.5 Ohm&lt;/td&gt;
+&lt;td&gt;2.5V @ 250uA&lt;/td&gt;
+&lt;td&gt;26.7pF @ 25V&lt;/td&gt;
+&lt;td&gt;2N7002ET1GOSTR-ND&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;BSH103&lt;/td&gt;
+&lt;td&gt;30V&lt;/td&gt;
+&lt;td&gt;850mA&lt;/td&gt;
+&lt;td&gt;400 mOhm&lt;/td&gt;
+&lt;td&gt;400mV @ 1mA&lt;/td&gt;
+&lt;td&gt;83pF @ 24V&lt;/td&gt;
+&lt;td&gt;BSH103,235-ND&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;BSS138&lt;/td&gt;
+&lt;td&gt;60V&lt;/td&gt;
+&lt;td&gt;320mA&lt;/td&gt;
+&lt;td&gt;1.6 Ohm&lt;/td&gt;
+&lt;td&gt;1.5V @ 250uA&lt;/td&gt;
+&lt;td&gt;50pF @ 10V&lt;/td&gt;
+&lt;td&gt;Mouser: 771-BSS138PW115&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;DMN2075U-7&lt;/td&gt;
+&lt;td&gt;20V&lt;/td&gt;
+&lt;td&gt;4.2A&lt;/td&gt;
+&lt;td&gt;38 mOhm&lt;/td&gt;
+&lt;td&gt;1V @ 250 uA&lt;/td&gt;
+&lt;td&gt;594.3pF @ 10V&lt;/td&gt;
+&lt;td&gt;DMN2075U-7DICT-ND&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/p&gt;
+
+&lt;p&gt;* BSS138 good choice for I2C level-shifting&lt;/p&gt;
+
+
+&lt;p&gt;
+&lt;b&gt;POWERPAK 1212-8&lt;/b&gt;
+&lt;table border="0" width="90%" cellspacing="0" cellpadding="5"&gt;
+&lt;tr bgcolor="#DDDDDD"&gt;
+&lt;td&gt;Name&lt;/td&gt;
+&lt;td&gt;VDS&lt;/td&gt;
+&lt;td&gt;ID&lt;/td&gt;
+&lt;td&gt;RDS(ON)&lt;/td&gt;
+&lt;td&gt;VGS(TH)&lt;/td&gt;
+&lt;td&gt;CISS&lt;/td&gt;
+&lt;td&gt;Order Number&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Si7308DN&lt;/td&gt;
+&lt;td&gt;60V&lt;/td&gt;
+&lt;td&gt;6A&lt;/td&gt;
+&lt;td&gt;58 mOhm&lt;/td&gt;
+&lt;td&gt;3V @ 250uA&lt;/td&gt;
+&lt;td&gt;665pF @ 15V&lt;/td&gt;
+&lt;td&gt;SI7308DN-T1-E3CT-ND&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="MOSFET-N" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="REFLOW" package="SOT23-R">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="WAVE" package="SOT23-W">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="WIDE" package="SOT23-WIDE">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="POWERPAK-1212-8" package="POWERPAK-1212-8">
+<connects>
+<connect gate="G$1" pin="D" pad="5-8"/>
+<connect gate="G$1" pin="G" pad="4"/>
+<connect gate="G$1" pin="S" pad="1 2 3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="DPAK" package="DPAK">
+<connects>
+<connect gate="G$1" pin="D" pad="4"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_TO252" package="TO252">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DIODE" prefix="D" uservalue="yes">
+<description>&lt;b&gt;Diode&lt;/b&gt;
+&lt;p&gt;
+&lt;h3&gt;SMA&lt;/h3&gt;
+&lt;table cellpadding="5" width="600"&gt;
+&lt;tr bgcolor="#DDDDDD"&gt;
+  &lt;td&gt;&lt;b&gt;Model&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Volts&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Amps&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Vf&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Ir&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Digikey #&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Notes&lt;/b&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;SSA34-E3&lt;/td&gt;
+  &lt;td&gt;40V&lt;/td&gt;
+  &lt;td&gt;3A&lt;/td&gt;
+  &lt;td&gt;Schottky&lt;/td&gt;
+  &lt;td&gt;480mV @ 3A&lt;/td&gt;
+  &lt;td&gt;200uA @ 40V&lt;/td&gt;
+  &lt;td&gt;SSA34-E3/61TGITR-ND&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;CDBA120-G&lt;/td&gt;
+  &lt;td&gt;20V&lt;/td&gt;
+  &lt;td&gt;1A&lt;/td&gt;
+  &lt;td&gt;Schottky&lt;/td&gt;
+  &lt;td&gt;500mV @ 1A&lt;/td&gt;
+  &lt;td&gt;500uA @ 20V&lt;/td&gt;
+  &lt;td&gt;641-1014-6-ND&lt;/td&gt;
+  &lt;td&gt;REEL&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;MBRA210&lt;/td&gt;
+  &lt;td&gt;10V&lt;/td&gt;
+  &lt;td&gt;2A&lt;/td&gt;
+  &lt;td&gt;Schottky&lt;/td&gt;
+  &lt;td&gt;350mV @ 2A&lt;/td&gt;
+  &lt;td&gt;700uA @ 10V&lt;/td&gt;
+  &lt;td&gt;MBRA210LT3&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;h3&gt;SOD-123&lt;/h3&gt;
+&lt;table cellpadding="5" width="600"&gt;
+&lt;tr bgcolor="#DDDDDD"&gt;
+  &lt;td&gt;&lt;b&gt;Model&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Volts&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Amps&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Vf&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Ir&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Order #&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Notes&lt;/b&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;BAT54T1G&lt;/td&gt;
+  &lt;td&gt;30V&lt;/td&gt;
+  &lt;td&gt;200mA&lt;/td&gt;
+  &lt;td&gt;Schottky&lt;/td&gt;
+  &lt;td&gt;800mV @ 200mA&lt;/td&gt;
+  &lt;td&gt;2uA @ 25V&lt;/td&gt;
+  &lt;td&gt;BAT54T1GOSTR-ND&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;B0530W&lt;/td&gt;
+  &lt;td&gt;30V&lt;/td&gt;
+  &lt;td&gt;500mA&lt;/td&gt;
+  &lt;td&gt;Schottky&lt;/td&gt;
+  &lt;td&gt;430mV @ 500mA&lt;/td&gt;
+  &lt;td&gt;130uA @ 30V&lt;/td&gt;
+  &lt;td&gt;B0530W-FDICT-ND&lt;/td&gt;
+  &lt;td&gt;REEL&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;MBR120&lt;/td&gt;
+  &lt;td&gt;20V&lt;/td&gt;
+  &lt;td&gt;1A&lt;/td&gt;
+  &lt;td&gt;Schottky&lt;/td&gt;
+  &lt;td&gt;340mV @ 1A&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+  &lt;td&gt;MBR120VLSFT1GOSCT-ND&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;h3&gt;SOD-323&lt;/h3&gt;
+&lt;table cellpadding="5" width="600"&gt;
+&lt;tr bgcolor="#DDDDDD"&gt;
+  &lt;td&gt;&lt;b&gt;Model&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Volts&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Amps&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Vf&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Ir&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Order #&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Notes&lt;/b&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;PMEG2005EJ&lt;/td&gt;
+  &lt;td&gt;20V&lt;/td&gt;
+  &lt;td&gt;500mA&lt;/td&gt;
+  &lt;td&gt;Schottky&lt;/td&gt;
+  &lt;td&gt;355mV @ 500mA&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+  &lt;td&gt;568-4110-1-ND&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;ZLLS410&lt;/td&gt;
+  &lt;td&gt;10V&lt;/td&gt;
+  &lt;td&gt;570mA&lt;/td&gt;
+  &lt;td&gt;Schottky&lt;/td&gt;
+  &lt;td&gt;380mV @ 570mA&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+  &lt;td&gt;ZLLS410CT-ND&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;1N4148WS&lt;/td&gt;
+  &lt;td&gt;75V&lt;/td&gt;
+  &lt;td&gt;150mA&lt;/td&gt;
+  &lt;td&gt;Silicon/Simple&lt;/td&gt;
+  &lt;td&gt;1V&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+  &lt;td&gt;1N4148WSFSCT-ND&lt;/td&gt;
+  &lt;td&gt;REEL&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;h3&gt;SOD-523&lt;/h3&gt;
+&lt;table cellpadding="5" width="600"&gt;
+&lt;tr bgcolor="#DDDDDD"&gt;
+  &lt;td&gt;&lt;b&gt;Model&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Volts&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Amps&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Vf&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Ir&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Order #&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Notes&lt;/b&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;BAT54XV2&lt;/td&gt;
+  &lt;td&gt;30V&lt;/td&gt;
+  &lt;td&gt;200mA&lt;/td&gt;
+  &lt;td&gt;Schottky&lt;/td&gt;
+  &lt;td&gt;0.8V @ 100mA&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+  &lt;td&gt;BAT54XV2CT-ND&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;TB751S&lt;/td&gt;
+  &lt;td&gt;30V&lt;/td&gt;
+  &lt;td&gt;30mA&lt;/td&gt;
+  &lt;td&gt;Schottky&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+  &lt;td&gt;RB751S-40TE61CT-ND&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;h3&gt;SOT23-R/W&lt;/h3&gt;(R = Solder Paste/Reflow Ovens, W = Hand-Soldering)
+&lt;br/&gt;
+&lt;table cellpadding="5" width="600"&gt;
+&lt;tr bgcolor="#DDDDDD"&gt;
+  &lt;td&gt;&lt;b&gt;Model&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Volts&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Amps&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Vf&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Ir&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Order #&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Notes&lt;/b&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;BAT54FILM&lt;/td&gt;
+  &lt;td&gt;40V&lt;/td&gt;
+  &lt;td&gt;300mA&lt;/td&gt;
+  &lt;td&gt;Schottky&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+  &lt;td&gt;497-7162-1-ND&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h3&gt;POWERDI-5&lt;/h3&gt;
+&lt;br/&gt;
+&lt;table cellpadding="5" width="600"&gt;
+&lt;tr bgcolor="#DDDDDD"&gt;
+  &lt;td&gt;&lt;b&gt;Model&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Volts&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Amps&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Vf&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Ir&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Order #&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Notes&lt;/b&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;PDS560&lt;/td&gt;
+  &lt;td&gt;60V&lt;/td&gt;
+  &lt;td&gt;5A&lt;/td&gt;
+  &lt;td&gt;Schottky&lt;/td&gt;
+  &lt;td&gt;670mV @ 5A&lt;/td&gt;
+  &lt;td&gt;150uA @ 60V&lt;/td&gt;
+  &lt;td&gt;PDS560DICT-ND&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SMA" package="SMADIODE">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="DO-1N4148" package="DO-1N4148">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOT23_REFLOW" package="SOT23-R">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOD-523" package="SOD-523">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOD-323" package="SOD-323">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOD-123" package="SOD-123">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOT23_WIDE" package="SOT23-WIDE">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="POWERDI" package="POWERDI-5">
+<connects>
+<connect gate="G$1" pin="A" pad="A1 A2"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -11702,7 +12277,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="C16" library="microbuilder" deviceset="CAP_CERAMIC" device="0603_NO" value="1uF"/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="U$41" library="microbuilder" deviceset="FRAME_A3_ADAFRUIT" device=""/>
-<part name="Q1" library="microbuilder" deviceset="MOSFET-P" device="" value="DMG341"/>
+<part name="Q2" library="microbuilder" deviceset="MOSFET-N" device="REFLOW"/>
+<part name="R12" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="100K"/>
+<part name="D12" library="microbuilder" deviceset="DIODE" device="SOD-323"/>
 </parts>
 <sheets>
 <sheet>
@@ -11716,7 +12293,7 @@ DOPO DO     SCK    Slave_SS Master_SS
 0x1  PAD[2] PAD[3] PAD[1]   System configuration
 0x2  PAD[3] PAD[1] PAD[2]   System configuration
 0x3  PAD[0] PAD[3] PAD[1]   System configuration</text>
-<text x="10.16" y="248.92" size="1.778" layer="95">p-channel</text>
+<text x="10.16" y="248.92" size="1.778" layer="95">N-Channel</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="-22.86" y="119.38" smashed="yes">
@@ -11793,12 +12370,12 @@ DOPO DO     SCK    Slave_SS Master_SS
 <attribute name="NAME" x="22.86" y="256.54" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
 <attribute name="VALUE" x="25.4" y="256.54" size="1.016" layer="96" font="vector" ratio="15" rot="R90" align="center"/>
 </instance>
-<instance part="PWR_LED7" gate="G$1" x="25.4" y="233.68" smashed="yes" rot="R270">
-<attribute name="NAME" x="29.845" y="234.95" size="1.27" layer="95" rot="R270" align="center"/>
-<attribute name="VALUE" x="22.606" y="234.95" size="1.27" layer="96" rot="R270" align="center"/>
+<instance part="PWR_LED7" gate="G$1" x="25.4" y="231.14" smashed="yes" rot="R270">
+<attribute name="NAME" x="29.845" y="232.41" size="1.27" layer="95" rot="R270" align="center"/>
+<attribute name="VALUE" x="22.606" y="232.41" size="1.27" layer="96" rot="R270" align="center"/>
 </instance>
-<instance part="GND6" gate="1" x="25.4" y="228.6" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="27.94" y="226.06" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND6" gate="1" x="25.4" y="226.06" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="27.94" y="223.52" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="D9" gate="G$1" x="-71.12" y="254" smashed="yes" rot="R270">
 <attribute name="NAME" x="-68.58" y="256.54" size="1.27" layer="95" rot="R270"/>
@@ -11893,9 +12470,17 @@ DOPO DO     SCK    Slave_SS Master_SS
 <attribute name="NAME" x="-120.65" y="213.995" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-120.65" y="203.2" size="1.778" layer="96"/>
 </instance>
-<instance part="Q1" gate="G$1" x="25.4" y="246.38" smashed="yes" rot="R180">
-<attribute name="VALUE" x="22.606" y="248.285" size="1.27" layer="96" rot="R180"/>
-<attribute name="NAME" x="22.606" y="245.999" size="1.27" layer="95" rot="R180"/>
+<instance part="Q2" gate="G$1" x="27.94" y="243.84" smashed="yes" rot="R180">
+<attribute name="NAME" x="22.86" y="243.205" size="1.27" layer="95" rot="R180"/>
+<attribute name="VALUE" x="22.86" y="245.11" size="1.27" layer="96" rot="R180"/>
+</instance>
+<instance part="R12" gate="G$1" x="40.64" y="256.54" smashed="yes" rot="R90">
+<attribute name="NAME" x="38.1" y="256.54" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="VALUE" x="40.64" y="256.54" size="1.016" layer="96" font="vector" ratio="15" rot="R90" align="center"/>
+</instance>
+<instance part="D12" gate="G$1" x="45.72" y="246.38" smashed="yes">
+<attribute name="NAME" x="45.72" y="248.92" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="45.72" y="243.88" size="1.27" layer="96" align="center"/>
 </instance>
 </instances>
 <busses>
@@ -12140,6 +12725,9 @@ DOPO DO     SCK    Slave_SS Master_SS
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="25.4" y1="261.62" x2="15.24" y2="261.62" width="0.1524" layer="91"/>
 <label x="17.78" y="261.62" size="1.778" layer="95"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="40.64" y1="261.62" x2="25.4" y2="261.62" width="0.1524" layer="91"/>
+<junction x="25.4" y="261.62"/>
 </segment>
 </net>
 <net name="CKO1" class="0">
@@ -12465,9 +13053,9 @@ DOPO DO     SCK    Slave_SS Master_SS
 </net>
 <net name="VHI1" class="0">
 <segment>
-<pinref part="Q1" gate="G$1" pin="S"/>
-<wire x1="25.4" y1="241.3" x2="25.4" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="PWR_LED7" gate="G$1" pin="A"/>
+<pinref part="Q2" gate="G$1" pin="D"/>
+<wire x1="25.4" y1="236.22" x2="25.4" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED7_PWR" class="0">
@@ -12477,16 +13065,27 @@ DOPO DO     SCK    Slave_SS Master_SS
 <label x="45.72" y="195.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="Q1" gate="G$1" pin="G"/>
-<wire x1="30.48" y1="243.84" x2="43.18" y2="243.84" width="0.1524" layer="91"/>
-<label x="30.48" y="243.84" size="1.778" layer="95"/>
+<wire x1="48.26" y1="246.38" x2="60.96" y2="246.38" width="0.1524" layer="91"/>
+<label x="48.26" y="246.38" size="1.778" layer="95"/>
+<pinref part="D12" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$36" class="1">
 <segment>
-<pinref part="Q1" gate="G$1" pin="D"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="254" x2="25.4" y2="251.46" width="0.1524" layer="91"/>
+<pinref part="Q2" gate="G$1" pin="S"/>
+<wire x1="25.4" y1="248.92" x2="25.4" y2="251.46" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="Q2" gate="G$1" pin="G"/>
+<wire x1="30.48" y1="246.38" x2="40.64" y2="246.38" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="40.64" y1="246.38" x2="43.18" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="251.46" x2="40.64" y2="246.38" width="0.1524" layer="91"/>
+<junction x="40.64" y="246.38"/>
+<pinref part="D12" gate="G$1" pin="A"/>
 </segment>
 </net>
 </nets>
