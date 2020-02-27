@@ -1316,8 +1316,8 @@ Righ-Angle SMT</description>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="JP3" library="microbuilder" deviceset="HEADER-1X4" device="ROUND"/>
-<part name="R1" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="10K"/>
 <part name="R2" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="10K"/>
+<part name="R1" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="10K"/>
 <part name="JP2" library="microbuilder" deviceset="HEADER-2X3" device=""/>
 </parts>
 <sheets>
@@ -1362,11 +1362,11 @@ Bread Board</text>
 <instance part="U$10" gate="G$1" x="109.22" y="88.9" smashed="yes">
 <attribute name="VALUE" x="107.696" y="86.36" size="1.27" layer="96"/>
 </instance>
-<instance part="P+1" gate="VCC" x="12.7" y="114.3" smashed="yes">
-<attribute name="VALUE" x="10.16" y="111.76" size="1.778" layer="96" rot="R90"/>
+<instance part="P+1" gate="VCC" x="22.86" y="114.3" smashed="yes">
+<attribute name="VALUE" x="20.32" y="111.76" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="P+2" gate="VCC" x="20.32" y="114.3" smashed="yes">
-<attribute name="VALUE" x="17.78" y="111.76" size="1.778" layer="96" rot="R90"/>
+<instance part="P+2" gate="VCC" x="12.7" y="114.3" smashed="yes">
+<attribute name="VALUE" x="10.16" y="111.76" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="P+4" gate="VCC" x="83.82" y="116.84" smashed="yes">
 <attribute name="VALUE" x="86.36" y="109.22" size="1.778" layer="96" rot="R180" align="top-right"/>
@@ -1379,13 +1379,13 @@ Bread Board</text>
 <attribute name="NAME" x="92.71" y="102.235" size="1.778" layer="95"/>
 <attribute name="VALUE" x="92.71" y="86.36" size="1.778" layer="96"/>
 </instance>
+<instance part="R2" gate="G$1" x="22.86" y="104.14" smashed="yes" rot="R270">
+<attribute name="NAME" x="25.4" y="104.14" size="1.27" layer="95" font="vector" rot="R270" align="center"/>
+<attribute name="VALUE" x="20.32" y="104.14" size="1.016" layer="96" font="vector" ratio="15" rot="R270" align="center"/>
+</instance>
 <instance part="R1" gate="G$1" x="12.7" y="104.14" smashed="yes" rot="R270">
 <attribute name="NAME" x="15.24" y="104.14" size="1.27" layer="95" font="vector" rot="R270" align="center"/>
 <attribute name="VALUE" x="10.16" y="104.14" size="1.016" layer="96" font="vector" ratio="15" rot="R270" align="center"/>
-</instance>
-<instance part="R2" gate="G$1" x="20.32" y="104.14" smashed="yes" rot="R270">
-<attribute name="NAME" x="22.86" y="104.14" size="1.27" layer="95" font="vector" rot="R270" align="center"/>
-<attribute name="VALUE" x="17.78" y="104.14" size="1.016" layer="96" font="vector" ratio="15" rot="R270" align="center"/>
 </instance>
 <instance part="JP2" gate="G$1" x="93.98" y="157.48" smashed="yes" rot="R270">
 <attribute name="NAME" x="92.71" y="158.115" size="1.778" layer="95"/>
@@ -1440,12 +1440,12 @@ Bread Board</text>
 <pinref part="JP3" gate="A" pin="3"/>
 </segment>
 <segment>
-<label x="10.16" y="88.9" size="1.778" layer="95" rot="MR0"/>
-<wire x1="12.7" y1="88.9" x2="2.54" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="99.06" x2="12.7" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="88.9" x2="27.94" y2="88.9" width="0.1524" layer="91"/>
-<junction x="12.7" y="88.9"/>
-<pinref part="R1" gate="G$1" pin="2"/>
+<label x="7.62" y="88.9" size="1.778" layer="95" rot="MR0"/>
+<wire x1="22.86" y1="88.9" x2="2.54" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="99.06" x2="22.86" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="88.9" x2="27.94" y2="88.9" width="0.1524" layer="91"/>
+<junction x="22.86" y="88.9"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="JP2" gate="G$1" pin="4"/>
@@ -1466,12 +1466,12 @@ Bread Board</text>
 <pinref part="JP3" gate="A" pin="4"/>
 </segment>
 <segment>
-<label x="10.16" y="96.52" size="1.778" layer="95" rot="MR0"/>
-<wire x1="20.32" y1="96.52" x2="2.54" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="99.06" x2="20.32" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="96.52" x2="27.94" y2="96.52" width="0.1524" layer="91"/>
-<junction x="20.32" y="96.52"/>
-<pinref part="R2" gate="G$1" pin="2"/>
+<label x="7.62" y="96.52" size="1.778" layer="95" rot="MR0"/>
+<wire x1="12.7" y1="96.52" x2="2.54" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="99.06" x2="12.7" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="96.52" x2="27.94" y2="96.52" width="0.1524" layer="91"/>
+<junction x="12.7" y="96.52"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="JP2" gate="G$1" pin="3"/>
@@ -1488,13 +1488,13 @@ Bread Board</text>
 </segment>
 <segment>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
-<wire x1="12.7" y1="111.76" x2="12.7" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="22.86" y1="111.76" x2="22.86" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="20.32" y1="109.22" x2="20.32" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="109.22" x2="12.7" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="96.52" y1="99.06" x2="83.82" y2="99.06" width="0.1524" layer="91"/>
