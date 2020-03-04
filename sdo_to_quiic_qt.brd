@@ -22794,9 +22794,9 @@
 <rectangle x1="7.108825" y1="12.779375" x2="7.134225" y2="12.785725" layer="42" grouprefs="POO"/>
 <rectangle x1="7.115175" y1="12.785725" x2="7.134225" y2="12.792075" layer="42" grouprefs="POO"/>
 <rectangle x1="7.121525" y1="12.792075" x2="7.140575" y2="12.798425" layer="42" grouprefs="POO"/>
-<text x="21.10105" y="14.73835" size="2.54" layer="30" ratio="15" rot="MR270">#</text>
-<text x="25.2476" y="13.54455" size="3.048" layer="30" ratio="15" rot="MR290.4">/</text>
-<text x="24.91105" y="12.2936" size="3.048" layer="30" ratio="15" rot="SMR270">100</text>
+<text x="21.10105" y="14.73835" size="2.54" layer="16" ratio="15" rot="MR270">#</text>
+<text x="25.2476" y="13.54455" size="3.048" layer="16" ratio="15" rot="MR290.4">/</text>
+<text x="24.91105" y="12.2936" size="3.048" layer="16" ratio="15" rot="SMR270">100</text>
 <polygon width="0.1524" layer="22">
 <vertex x="21.35505" y="12.24915"/>
 <vertex x="17.76095" y="12.24915"/>
@@ -22804,6 +22804,9 @@
 <vertex x="21.35505" y="4.27355"/>
 <vertex x="21.35505" y="12.2555"/>
 </polygon>
+<text x="21.10105" y="14.73835" size="2.54" layer="30" ratio="15" rot="MR270">#</text>
+<text x="25.2476" y="13.54455" size="3.048" layer="30" ratio="15" rot="MR290.4">/</text>
+<text x="24.91105" y="12.2936" size="3.048" layer="30" ratio="15" rot="SMR270">100</text>
 </plain>
 <libraries>
 <library name="microbuilder">
@@ -23137,7 +23140,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="JP3" pad="2"/>
 <contactref element="JP2" pad="6"/>
 <via x="3.683" y="12.446" extent="1-16" drill="0.4826"/>
-<polygon width="0.1524" layer="16">
+<polygon width="0.254" layer="16" pour="hatch">
 <vertex x="25.4" y="15.24"/>
 <vertex x="25.4" y="2.54" curve="-90"/>
 <vertex x="22.86" y="0"/>
