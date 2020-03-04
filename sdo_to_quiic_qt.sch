@@ -1315,10 +1315,10 @@ Righ-Angle SMT</description>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="JP3" library="microbuilder" deviceset="HEADER-1X4" device="ROUND"/>
+<part name="JP3" library="microbuilder" deviceset="HEADER-1X4" device="ROUND" value="Breadboard header"/>
 <part name="R2" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="10K"/>
 <part name="R1" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="10K"/>
-<part name="JP2" library="microbuilder" deviceset="HEADER-2X3" device=""/>
+<part name="JP2" library="microbuilder" deviceset="HEADER-2X3" device="" value="SAO 1.6 Header"/>
 </parts>
 <sheets>
 <sheet>
@@ -1506,20 +1506,6 @@ Bread Board</text>
 <pinref part="JP2" gate="G$1" pin="5"/>
 <wire x1="91.44" y1="162.56" x2="91.44" y2="182.88" width="0.1524" layer="91"/>
 <label x="91.44" y="180.34" size="1.778" layer="95" rot="R270"/>
-</segment>
-</net>
-<net name="SAO_GPIO1" class="0">
-<segment>
-<pinref part="JP2" gate="G$1" pin="1"/>
-<wire x1="96.52" y1="162.56" x2="96.52" y2="182.88" width="0.1524" layer="91"/>
-<label x="96.52" y="180.34" size="1.778" layer="95" rot="R270"/>
-</segment>
-</net>
-<net name="SAO_GPIO2" class="0">
-<segment>
-<pinref part="JP2" gate="G$1" pin="2"/>
-<wire x1="96.52" y1="154.94" x2="96.52" y2="132.08" width="0.1524" layer="91"/>
-<label x="96.52" y="134.62" size="1.778" layer="95" rot="R270" align="bottom-right"/>
 </segment>
 </net>
 </nets>
